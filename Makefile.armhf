@@ -1,0 +1,7 @@
+all:
+	make -C ./lib/ -m ./lib/Makefile.armhf
+	make -C ./out/ -m ./lib/Makefile.armhf
+	
+clean:
+	make -C ./lib/ clean
+	make -C ./out/ clean
