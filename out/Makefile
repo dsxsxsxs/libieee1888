@@ -3,7 +3,7 @@ ARFLAGS =   rc
 CC =    gcc
 STRIP = strip
 
-LFLAG = -L. -lieee1888
+LFLAG = -L. -pthread -lpthread -lieee1888
 
 all:	ieee1888_sample_app ieee1888_sample_gw
 

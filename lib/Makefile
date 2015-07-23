@@ -15,7 +15,7 @@ $(OBJS): $(SRC)
 	$(CC) -c $(SRC) 
 
 $(LIBIEEE1888): $(OBJS)
-	$(AR) $(ARFLAGS) $@ $(OBJS)
+	$(AR) $(ARFLAGS) $@ $(OBJS) 
 	@echo $(AR) $(ARFLAGS) $@ $(OBJS) done
 	cp $(LIBIEEE1888) ../out/.
 	@echo cp lib done

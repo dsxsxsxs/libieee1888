@@ -1,6 +1,6 @@
 all:
-	make -C ./lib/ 
-	make -C ./out/
+	make -C ./lib/ -f Makefile 
+	make -C ./out/ -f Makefile
 	
 clean:
 	make -C ./lib/ clean

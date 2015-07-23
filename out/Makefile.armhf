@@ -3,7 +3,7 @@ AR  =  arm-linux-gnueabihf-ar
 ARFLAGS =   rc
 STRIP = arm-linux-gnueabihf-strip
 
-LFLAG = -L. -lieee1888
+LFLAG = -L. -lpthread -lieee1888
 	
 all:	ieee1888_sample_app ieee1888_sample_gw
 

@@ -1,6 +1,6 @@
 all:
-	make -C ./lib/ -m ./lib/Makefile.armhf
-	make -C ./out/ -m ./lib/Makefile.armhf
+	make -C ./lib/ -f Makefile.armhf
+	make -C ./out/ -f Makefile.armhf
 	
 clean:
 	make -C ./lib/ clean

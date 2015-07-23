@@ -1,4 +1,10 @@
 Just a librarized version of IEEE1888 C sample sources. v201310.
+For building armhf binaries:
+```
+make -f Makefile.armhf
+```
+Make sure your have the cross compiler or just modify the Makefiles to fit your environment.
+
 # Readme.txt
 ```
 ---------------------------------------------------------
